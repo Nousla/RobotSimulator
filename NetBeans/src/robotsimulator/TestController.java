@@ -45,4 +45,9 @@ public class TestController implements Controller {
             sim.getRobotAPI().playSound("hello");
         }
     }
+    
+    @Override
+    public void finish() {
+        // Do stuff
+    }
 }
